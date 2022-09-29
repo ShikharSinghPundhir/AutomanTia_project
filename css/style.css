@@ -34,10 +34,12 @@ body {
     color:var(--fav-text-color);
     padding:0.5rem 0.5rem;
     text-align: center;
+    margin-left: 10px;
 }
 #header .navbar-nav .nav-item .nav-link:hover,
 #header .navbar-nav .nav-item .nav-link.active{
     color:var(--second-fav-color);
+    
 }
 #header .fixed-top{
     box-shadow: 0 0.125rem 0.675rem rgb(0 0 0 /15%);
