@@ -41,9 +41,9 @@ body {
     color:var(--second-fav-color);
 
 }
-#header .fixed-top{
+#header .navbar{
     box-shadow: 0 0.125rem 0.675rem rgb(0 0 0 /15%);
-    height: 15%;
+    
     
 }
 #header .navbar .navbar-brand h2{
