@@ -4,7 +4,17 @@
         top: 10%;
     }
     .navbar-brand{
-        width: 38%;
+        width: 40%;
     }
+    #header .navbar-nav .logo{
+        width: 40%;
+    }
+    #header .navbar-nav .nav-item .nav-link{
+        font-size: 1rem;
+    }
+    #header .navbar-nav .nav-item .nav-link.active{
+        font-size: 1rem;
+    }
+
     
 }
