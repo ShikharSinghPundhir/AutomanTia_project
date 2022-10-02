@@ -64,6 +64,18 @@ body {
     background-image: url('/images/car.jpg');
     background-size: cover;
 }
+.second .col-md-8 h1{
+	margin-top: 20px;
+	font-family: serif;
+	
+	text-align: center;
+}
+#second .col-md-8 p{
+	margin-top: 20px;
+	font-family: serif;
+	font-size: 20px;
+	text-align: justify;
+}
 
 
 
