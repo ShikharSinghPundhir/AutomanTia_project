@@ -28,7 +28,7 @@ body {
     overflow-x:hidden;
 }
 /* NAVBAR CSS */
-#header .navbar-nav .nav-item .nav-link{
+#header .navbar-nav .nav-item .nav-link{ 
     color:var(--fav-text-color);
     padding:0.5rem 0.5rem;
     text-align: center;
