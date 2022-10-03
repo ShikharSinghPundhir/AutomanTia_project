@@ -60,22 +60,6 @@ body {
 }
 
 
-#second{
-    background-image: url('/images/car.jpg');
-    background-size: cover;
-}
-.second .col-md-8 h1{
-	margin-top: 20px;
-	font-family: serif;
-	
-	text-align: center;
-}
-#second .col-md-8 p{
-	margin-top: 20px;
-	font-family: serif;
-	font-size: 20px;
-	text-align: justify;
-}
 
 
 
@@ -84,7 +68,11 @@ body {
 
 
 
-.section-3 {
+
+
+
+
+.section-4 {
     margin-bottom: 20%;
     height: 70vmin;
     margin-top: 15vmin;
@@ -92,7 +80,7 @@ body {
     background: var(--bggradient);
   }
   
-  .section-3 .col-md-12 > h1 {
+  .section-4 .col-md-12  h1 {
     padding: 2em 0 0.5em 0;
     color: aquamarine;
     /* color: whitesmoke; */
@@ -100,25 +88,25 @@ body {
     font-size: 6vmin;
   }
   
-  .section-3 .col-md-12 > p {
+  .section-4 .col-md-12  p {
     padding: 0 4em;
     padding-bottom: 2em;
     color: var(--light-gray);
     font-size: 3vmin;
   }
   
-  .section-3 .desktop {
+  .section-4 .desktop {
     background: mediumaquamarine;
     display: inline-block;
     border-radius: 3em;
     padding: 2vmin 4.5vmin;
     margin: 1em;
   }
-  .section-3 .desktop h3 {
+  .section-4 .desktop h3 {
     font-size: 4vmin;
   }
   
-  .section-3 .desktop p {
+  .section-4 .desktop p {
     font-size: 2vmin;
   }
 
