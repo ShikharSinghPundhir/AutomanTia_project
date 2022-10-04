@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 :root{ 
     /* Background Color */
@@ -60,6 +61,34 @@ body {
 }
 
 
+.video-row{
+  display: flex;
+  position: relative;
+  
+  
+  
+}
+.video-row .col-md-4 h1{
+  font-size: 100px ;
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  
+  transition: 0.3s;
+
+}
+.video-row .col-md-4 h1:hover{
+  -webkit-text-stroke: 4px aquamarine;
+  color: transparent;
+
+}
+@media(max-width:768px){
+  .video-row .col-md-4 h1{
+    left: 26%;
+    top: 40%;
+    font-size: 36px;
+  }
+}
 
 
 
@@ -113,9 +142,57 @@ body {
 
 /* second section */
 
-
-
+.modal{
+  color: #121212;
   
+}
+
+
+
+/* collections page */
+ 
+#collection{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  
+}
+
+#collection .col-md-8 h1{
+  color: aquamarine;
+}
+#collection .price{
+  padding: 20px;
+}
+#collection .price .btn{
+  margin-top: 10px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: black;
+  background-color: aquamarine;
+
+}
+#collection .price h4{
+  color:navajowhite;
+  
+}
+#collection .price i{
+  color: yellow;
+}
+#collection .finalbutton  {
+  margin-top: 80px;
+  font-size: large;
+  border-radius: 10px;
+  width: 300px;
+  height: 60px;
+  font-weight: 600;
+  color: black;
+  background-color: aquamarine;
+
+}
 
 
 /* RESponsive */

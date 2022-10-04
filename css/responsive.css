@@ -1,3 +1,7 @@
+.i1{
+    width: 100%;
+}
+
 @media(max-width:768px){
     .navbar-toggler{
         position: relative;
@@ -16,6 +20,12 @@
         font-size: 1rem;
     }
    
+
+    .i1{
+    width: 148px;
+    margin-top: 28%;
+    margin-left: 24%;
+    }
 
     
 }
