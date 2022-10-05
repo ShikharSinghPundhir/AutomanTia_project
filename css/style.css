@@ -157,7 +157,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  
+  position: relative;
   
 }
 
@@ -167,24 +167,17 @@ body {
 #collection .price{
   padding: 20px;
 }
-#collection .price .btn{
-  margin-top: 10px;
-  border-radius: 4px;
-  font-weight: 400;
-  color: black;
-  background-color: aquamarine;
-
-}
-#collection .price h4{
+#collection .front-specs h4{
   color:navajowhite;
   
 }
-#collection .price i{
+#collection .front-specs i{
   color: yellow;
 }
-#collection .finalbutton  {
+/* #collection .finalbutton  {
   margin-top: 80px;
   font-size: large;
+  
   border-radius: 10px;
   width: 300px;
   height: 60px;
@@ -192,7 +185,29 @@ body {
   color: black;
   background-color: aquamarine;
 
+} */
+
+#collection .price{
+  transform-style: preserve-3d;
+  transition: all 0.4s ease;
 }
+#collection .price:hover{
+  transform: rotateY(180deg);
+}
+#collection .front-specs{
+  position: absolute;
+  padding: 20px;
+  
+  
+  backface-visibility: hidden;
+}
+#collection .back-specs{
+  position: absolute;
+  
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
 
 
 /* RESponsive */
